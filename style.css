@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 0 4%;
+    background-color: rgb(207, 218, 213);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a > img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+header a{
+    margin: 10px;
+    background-color: rgb(0, 10, 148);
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+header > a:hover{
+    background-color: rgb(223, 91, 3);
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+    background-image: url(imagens/paineis-solares3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+.title{
+    margin-top: 80px;
+    padding: 70px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.548);
+
+}
+.container1{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container1 h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+
+.container1 h1 > samp{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 233, 19);
+}
+
+.container1 p{
+    padding: 25px 0 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container1 a{
+    background-color: rgb(27, 117, 80);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.container1 a:hover{
+    background-color: rgb(223, 91, 3);
+}
+
+.container2{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+.container2 > h2{
+    padding-top: 40px;
+    color: rgb(27, 117, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container2 > p{
+    margin: 20px auto 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}
+
+.container2 .painel{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container2 .quadro{
+    margin: 0 15px;
+    padding: 5px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+}
+.container2 .quadro h2{
+    padding-left: 8%;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left;
+}
+.container2 .quadro p{
+    padding-left: 8%;
+    padding-right: 8%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.container2 .quadro img{
+    display: flex;
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.quadro #logo2{
+    margin: 0 auto;
+    width: 100px;
+
+}
+
+.container3{
+    background-image: url(imagens/placa-solar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container3 .sombra{
+    background-color: rgba(27, 117, 80, 0.767);
+    width: 100%;
+    height: 100%;
+}
+
+.container3 h2{
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container3 h2 > samp{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 233, 19);
+}
+
+.container3 .sombra img{
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0 auto 35px;
+}
+
+.container3 a{
+    
+    background-color: rgb(0, 10, 148);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.container3 a:hover{
+    background-color: rgb(223, 91, 3);
+}
+
+.container4{
+    width: 90%;
+    height: 480px;
+    margin: 20px auto;
+    border-radius: 10PX;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* inicio da estilização section.container4*/
+
+.container4 h2{
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(27, 117, 80);
+    margin-bottom: 30px;
+}
+.container4 > p{
+    margin: 20px auto 80px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}
+
+.depoimento{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container4 .depoimento .relato{
+    margin: 0 2% 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    width: 20%;
+    height: 185px;
+    border-radius: 10px;    
+}
+
+.container4 .depoimento h2{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+.container4 .depoimento p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+}
+.container4 .depoimento img{
+    object-fit: cover;
+    margin-top: -40px;
+    margin-bottom: -12px;
+    width: 90px;
+    height: 90px;
+    /*border: 2px solid rgb(0, 10, 148);*/
+    border-radius: 50%;
+}
+
+main .botao{
+    margin: 50px auto;
+    text-align: center;
+}
+main .botao a{
+    text-align: center;
+    background-color: rgb(0, 10, 148);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px
+}
+    
+main .botao a:hover{
+    background-color: rgb(223, 91, 3);
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background-color: #010757;
+}
+
+.footer h3{
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 0 10%;
+}
+
+.footer .linha{
+    margin: 0 10% 20px;
+    width: 80%;
+    border-top: 2px solid white;
+}
+
+.footer .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 20px 0 30px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.footer .produtor{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(27, 117, 80);
+    text-align: center;
+}
+
+.footer .produtor p{
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px
+}
+.footer .produtor a{
+    color: #010757;
+    text-decoration: none;
+}
+
+/* Ajustes gerais para telas pequenas */
+@media (max-width: 1200px) {
+
+    header {
+        height: auto;
+    }
+    header img{
+        width: 120px;
+        height: 60px;
+    }
+
+    header a {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    header a > img{
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+
+    .container1 h1{
+        font-size: 50px;
+        padding-top: 35px;
+        
+    }
+    .container1 h1 samp{
+        font-size: 50px;
+    }
+
+    .container1 .title p{
+        padding-top: 50px;
+        font-size: 15px;
+    }
+
+    .container1 .title{
+        padding: 20px 0 -80px;
+    }
+
+    .containe2{
+        width: 100%;
+        height: 100%;
+    }
+    .container2 .painel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .container2 .quadro {
+        width: 200px;
+        height: 200px;
+        margin: 25px;
+    }
+
+    .container4{
+        height: 100%;
+    }
+
+    .container4 p{
+        margin-bottom: 30px;
+    }
+    .container4 .depoimento {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container4 .depoimento .relato {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container4 .depoimento .relato p{
+        font-size: 15px;
+    }
+    .container1, .container3 {
+        background-position: center;
+        background-size: cover;
+        height: auto;
+    }
+
+    .container3{
+        width: 100%;
+        height: 100%;
+        margin-top: 275px;
+        
+    }
+    .container3 .sombra{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .container3 .sombra img {
+        width: 70%;
+        height: 250px;
+    }
+    .container3 a {
+        margin: 50% auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        
+    }
+
+    .container3 h2 {
+        font-size: 35px;
+    }
+
+    .container1 p, .container3 p {
+        font-size: 18px;
+    }
+
+    .container1 a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer .info {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer .produtor {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header {
+        height: auto;
+    }
+    header img{
+        width: 120px;
+        height: 60px;
+    }
+
+    header a {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    header a > img{
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+
+    .container1 h1{
+        font-size: 50px;
+        padding-top: 35px;
+        
+    }
+    .container1 h1 samp{
+        font-size: 50px;
+    }
+
+    .container1 .title p{
+        padding-top: 50px;
+        font-size: 15px;
+    }
+
+    .container1 .title{
+        padding: 20px 0 -80px;
+    }
+
+    .containe2{
+        width: 100%;
+        height: 100%;
+    }
+    .container2 .painel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .container2 .quadro {
+        width: 200px;
+        height: 200px;
+        margin: 25px;
+    }
+
+    .container4{
+        height: 100%;
+    }
+
+    .container4 p{
+        margin-bottom: 30px;
+    }
+    .container4 .depoimento {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container4 .depoimento .relato {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container4 .depoimento .relato p{
+        font-size: 15px;
+    }
+    .container1, .container3 {
+        background-position: center;
+        background-size: cover;
+        height: auto;
+    }
+
+    .container3{
+        width: 100%;
+        height: 100%;
+        margin-top: 275px;
+        
+    }
+    .container3 .sombra{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .container3 .sombra img {
+        width: 70%;
+        height: 250px;
+    }
+    .container3 a {
+        margin: 50% auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        
+    }
+
+    .container3 h2 {
+        font-size: 35px;
+    }
+
+    .container1 p, .container3 p {
+        font-size: 18px;
+    }
+
+    .container1 a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer .info {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer .produtor {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container1 h1{
+        font-size: 40px;
+        padding-top: 10px;
+        
+    }
+    .container1 h1 samp{
+        font-size: 40px;
+    }
+
+    .container1 .title p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .container3{
+        margin-top: 560px; 
+    }
+
+}
+
+@media (max-width: 540px) {
+    .container1 h1{
+        font-size: 35px;
+        padding-top: 5px;
+        
+    }
+    .container1 h1 samp{
+        font-size: 40px;
+    }
+    .container1 .title p{
+        padding-bottom: 15px;
+    }
+    .container2 .info{
+        margin: 030px;
+    }
+    .container3{
+        margin-top: 1040px; 
+    }
+
+    .container3 h2 {
+        font-size: 25px;
+        margin: 0 20px 20px;
+    }
+
+    .container3 h2 samp{
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .container4 h2{
+        font-size: 35px;
+        margin: 0 20px;
+    }
+}
