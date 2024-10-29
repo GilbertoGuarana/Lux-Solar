@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Aqui inicia a estilização do cabeçario da pagina*/
 header{
     width: 100%;
     position: fixed;
@@ -43,6 +43,7 @@ header > a:hover{
     background-color: rgb(223, 91, 3);
 }
 
+/*Aqui inicia a estilização do container1 da pagina*/
 .container1{
     width: 100%;
     height: 500px;
@@ -50,7 +51,7 @@ header > a:hover{
     background-image: url(imagens/paineis-solares3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
+    
     
 }
 
@@ -58,11 +59,8 @@ header > a:hover{
     margin-top: 80px;
     padding: 70px;
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.548);
-
-}
-.container1{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -98,15 +96,19 @@ header > a:hover{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .container1 a:hover{
     background-color: rgb(223, 91, 3);
 }
 
+/*Aqui inicia a estilização do container2 da pagina*/
+
 .container2{
     width: 100%;
-    height: 450px;
+    height: 100%;
+    margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
 }
 .container2 > h2{
@@ -142,8 +144,8 @@ header > a:hover{
     height: 200px;
     border-radius: 10%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    
 }
+
 .container2 .quadro h2{
     padding-left: 8%;
     margin-right: 20px;
@@ -152,6 +154,7 @@ header > a:hover{
     font-size: 20px;
     text-align: left;
 }
+
 .container2 .quadro p{
     padding-left: 8%;
     padding-right: 8%;
@@ -173,24 +176,25 @@ header > a:hover{
 .quadro #logo2{
     margin: 0 auto;
     width: 100px;
-
 }
 
+/*Aqui inicia a estilização do container3 da pagina*/
 .container3{
     background-image: url(imagens/placa-solar2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 550px;
+    height: 100%;
+    margin-bottom: 20px;
     text-align: center;
-    display: flex;
-    align-items: center;
 }
 
 .container3 .sombra{
-    background-color: rgba(27, 117, 80, 0.767);
+    background-color: rgba(0, 0, 0, 0.548);
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container3 h2{
@@ -210,21 +214,23 @@ header > a:hover{
 }
 
 .container3 .sombra img{
-    width: 40%;
+    width: 50%;
     height: 50%;
+    margin: 0 auto;
     border-radius: 10px;
-    margin: 0 auto 35px;
 }
 
-.container3 a{
-    
-    background-color: rgb(0, 10, 148);
+.container3 a{ 
+    background-color: rgb(27, 117, 80);
+    margin: 30px auto;
     padding: 15px 30px;
+    margin-bottom: 30px;
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .container3 a:hover{
@@ -240,8 +246,7 @@ header > a:hover{
     text-align: center;
 }
 
-/* inicio da estilização section.container4*/
-
+/*Aqui inicia a estilização do container4 da pagina*/
 .container4 h2{
     padding-top: 20px;
     font-weight: 900;
@@ -300,6 +305,7 @@ header > a:hover{
     border-radius: 50%;
 }
 
+/*Aqui inicia a estilização do botão "QUERO SABER MAIS!" da pagina*/
 main .botao{
     margin: 50px auto;
     text-align: center;
@@ -313,13 +319,57 @@ main .botao a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    border-radius: 10px
+    border-radius: 20px
 }
     
 main .botao a:hover{
     background-color: rgb(223, 91, 3);
 }
 
+/*Aqui inicia a estilização do container5 da pagina*/
+.container5{
+    background-color: rgb(240, 240, 240);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto 40px;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container5 div{
+    width: 50%;
+    height: 100%;
+}
+
+.container5 div > h2{
+    color: rgb(27, 117, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0 auto 20px;
+    padding: 0 30px;
+}
+
+.container5 div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 20px 20px;
+    margin: 0 auto;
+}
+
+.container5 div > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Aqui inicia a estilização do Roda-pé da pagina*/
 .footer{
     text-align: center;
     width: 100%;
@@ -340,7 +390,7 @@ main .botao a:hover{
     border-top: 2px solid white;
 }
 
-.footer .info{
+.footer .contato{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -349,6 +399,10 @@ main .botao a:hover{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+}
+
+.footer .contato p{
+    padding: 5px;
 }
 
 .footer .produtor{
@@ -366,11 +420,11 @@ main .botao a:hover{
     font-size: 12px
 }
 .footer .produtor a{
-    color: #010757;
+    color: #dad737;
     text-decoration: none;
 }
 
-/* Ajustes gerais para telas pequenas */
+/* Ajustes gerais para telas de até 1200px */
 @media (max-width: 1200px) {
 
     header {
@@ -456,20 +510,18 @@ main .botao a:hover{
     .container3{
         width: 100%;
         height: 100%;
-        margin-top: 275px;
         
     }
     .container3 .sombra{
         width: 100%;
         height: 100%;
-        padding-bottom: 40px;
+        
     }
     .container3 .sombra img {
-        width: 70%;
-        height: 250px;
+        width: 50%;
+        height: 50%;
     }
     .container3 a {
-        margin: 50% auto;
         padding: 10px 20px;
         font-size: 16px;
         
@@ -487,12 +539,18 @@ main .botao a:hover{
         padding: 10px 20px;
         font-size: 16px;
     }
+
+    .container5 div > h2{
+        font-size: 30px;
+        
+    }
+
     .footer{
         width: 100%;
         height: 100%;
     }
 
-    .footer .info {
+    .footer .contato {
         flex-direction: column;
         text-align: center;
     }
@@ -502,6 +560,7 @@ main .botao a:hover{
     }
 }
 
+/* Ajustes gerais para telas de até 1024px */
 @media (max-width: 1024px) {
 
     header {
@@ -541,20 +600,17 @@ main .botao a:hover{
         padding: 20px 0 -80px;
     }
 
-    .containe2{
-        width: 100%;
-        height: 100%;
+    .container2 > p{
+        margin: 20px 20px 40px;
     }
-    .container2 .painel {
+    
+    .container2 .painel{
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-evenly;
     }
-
-    .container2 .quadro {
-        width: 200px;
-        height: 200px;
-        margin: 25px;
+    
+    .container2 .quadro{
+        margin: 10px 10px;
     }
 
     .container4{
@@ -562,6 +618,7 @@ main .botao a:hover{
     }
 
     .container4 p{
+        padding: 0 30px;
         margin-bottom: 30px;
     }
     .container4 .depoimento {
@@ -587,20 +644,17 @@ main .botao a:hover{
     .container3{
         width: 100%;
         height: 100%;
-        margin-top: 275px;
         
     }
     .container3 .sombra{
         width: 100%;
         height: 100%;
-        padding-bottom: 40px;
     }
     .container3 .sombra img {
-        width: 70%;
-        height: 250px;
+        width: 50%;
+        height: 50%;
     }
     .container3 a {
-        margin: 50% auto;
         padding: 10px 20px;
         font-size: 16px;
         
@@ -618,12 +672,34 @@ main .botao a:hover{
         padding: 10px 20px;
         font-size: 16px;
     }
+
+    .container5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container5 div{
+        width: 100%;
+        height: 100%;
+    }
+    .container5 div > h2{
+        margin: 30px auto;
+    }
+
+    .container5 div > p{
+        padding: 30px;
+    }
+
+    .container5 div > img{
+        width: 70%;
+        height: 70%;
+    }
     .footer{
         width: 100%;
         height: 100%;
     }
 
-    .footer .info {
+    .footer .contato{
         flex-direction: column;
         text-align: center;
     }
@@ -632,7 +708,7 @@ main .botao a:hover{
         font-size: 10px;
     }
 }
-
+/* Ajustes gerais para telas de até 768px */
 @media (max-width: 768px) {
     .container1 h1{
         font-size: 40px;
@@ -648,13 +724,30 @@ main .botao a:hover{
         font-size: 15px;
     }
 
-    .container3{
-        margin-top: 560px; 
+    .container2 > p{
+        margin: 20px 20px 40px;
+    }
+    
+    .container2 .painel{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container2 .quadro{
+        margin: 10px 10px;
+    }
+    
+    .container3 .sombra img {
+        width: 60%;
+        height: 60%;
     }
 
+    .container4 p{
+        padding: 0 30px;
+    }
 }
-
-@media (max-width: 540px) {
+/* Ajustes gerais para telas de até 540px */
+@media (max-width: 480px) {
     .container1 h1{
         font-size: 35px;
         padding-top: 5px;
@@ -666,11 +759,18 @@ main .botao a:hover{
     .container1 .title p{
         padding-bottom: 15px;
     }
-    .container2 .info{
-        margin: 030px;
+    
+    .container2 > p{
+        margin: 20px 20px 40px;
     }
-    .container3{
-        margin-top: 1040px; 
+    
+    .container2 .painel{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container2 .quadro{
+        margin: 10px 10px;
     }
 
     .container3 h2 {
@@ -681,6 +781,11 @@ main .botao a:hover{
     .container3 h2 samp{
         font-size: 25px;
         margin: 0 auto;
+    }
+
+    .container3 .sombra img {
+        width: 70%;
+        height: 70%;
     }
 
     .container4 h2{
